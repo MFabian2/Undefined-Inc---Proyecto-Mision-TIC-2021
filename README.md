@@ -1,5 +1,5 @@
 Integrantes
-1-
+1-Marco Fabián Piñeros Hernández
 2-
 3-
 4-
