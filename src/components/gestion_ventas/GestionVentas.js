@@ -1,42 +1,52 @@
+/*
+Developed By Hitman
+*/
+
 import React from 'react'
 import './gestionVentas.css'
+import { NavGestionVentas } from './NavGestionVentas'
 
 export const GestionVentas = () => {
     return (
+
         <div>
-            <div className="row">
 
-                <div className="col-3 bg-success pt-3 ">
-                    <h2>Gestion de Ventas</h2>
-                </div>
+            <NavGestionVentas />
 
-                <div className="col-3 bg-warning p-3">
-                    <input type="text" className="form-control"></input>
-                </div>
-
-                <div className="col-1 bg-primary p-3 text-center">
-                    <button className="btn btn-success">
-                        busqueda
-                    </button>
-                </div>
-
-                <div className="col-3 bg-secondary p-3"></div>
-
-                <div className="col-2 bg-success pt-3 text-center">
-                    <button className="btn btn-warning">
-                        Filtrar
-                    </button>
-                </div>
-
-            </div>
+            <br />
 
             <section className="container mt-4 bg-light">
 
-                <div>
-                    <h1>
-                        Seccion principal
-                    </h1>
+                <div className="table-responsive">
+                    <table className="table">
+                        <thead className="cool-gray">
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Vendedor</th>
+                                <th scope="col">Estado</th>
+                                <th scope="col">Fecha</th>
+                                <th scope="col text-center"> Editar
+                                    <i class="fas fa-pencil-alt"></i>
+                                </th>
 
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">12345</th>
+                                <td>IphoneX</td>
+                                <td>Juan Perez</td>
+                                <td>Enviado</td>
+                                <td>19/12/21</td>
+                                <td className="text-left">
+                                    <button className="btn cobalt">
+                                        <i class="fas fa-pencil-alt white-icon"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
             </section>

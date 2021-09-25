@@ -2,3 +2,24 @@ body{
   margin: 0;
   padding: 0;
 }
+
+
+.blue-black{
+  background-color: #2F2E33;
+}
+
+.cool-gray{
+  background-color: #D5D6D2;
+}
+
+.white{
+background-color: #ffff;
+}
+
+.cobalt{
+  background-color: #3A5199 !important;
+}
+
+.white-icon{
+  color:#ffff
+}
