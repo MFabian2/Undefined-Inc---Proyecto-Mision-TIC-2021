@@ -1,5 +1,7 @@
 /*
+=====================
 Developed By Hitman
+=====================
 */
 
 import React from 'react'
@@ -47,6 +49,18 @@ export const GestionVentas = () => {
                             </tr>
                         </tbody>
                     </table>
+
+
+                    <div className="alert alert-warning text-center" role="alert">
+                        <i className="fas fa-exclamation-triangle fa-2x"></i>
+                        <p>
+                            Actualmente no existen ventas en curso
+                        </p>
+                    </div>
+
+                    <div className="alert alert-light text-center" role="alert">
+                    <i class="fas fa-sync fa-2x fa-spin"></i>
+                    </div>
                 </div>
 
             </section>

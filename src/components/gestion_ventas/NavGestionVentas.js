@@ -1,3 +1,9 @@
+/*
+======================
+Developed By Hitman
+======================
+*/
+
 import React from 'react'
 
 export const NavGestionVentas = () => {
