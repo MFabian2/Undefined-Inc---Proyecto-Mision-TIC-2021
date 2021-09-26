@@ -1,5 +1,5 @@
 Integrantes
-1-Marco Fabián Piñeros Hernández
+1-Marco Fabián Piñeros Hernández Por que apagaste la camara
 2-
 3-
 4-
