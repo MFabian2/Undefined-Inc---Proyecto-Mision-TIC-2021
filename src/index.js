@@ -6,11 +6,12 @@ import { GestionVentas } from './components/gestion_ventas/GestionVentas';
 import '@fortawesome/fontawesome-free/js/brands';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/fontawesome'
+import { AppRouter } from './Routes/AppRouter';
 
 
 ReactDOM.render(
   
-    <GestionVentas />,
+    <AppRouter />,
   document.getElementById('root')
 );
 

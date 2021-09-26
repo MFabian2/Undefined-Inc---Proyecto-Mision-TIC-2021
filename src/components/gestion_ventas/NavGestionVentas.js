@@ -21,7 +21,7 @@ export const NavGestionVentas = () => {
 
                 <div className="col-3 cool-gray text-left align-self-center">
                     <button className="btn btn-success">
-                    <i class="fas fa-search"></i>
+                    <i className="fas fa-search"></i>
                     </button>
                 </div>
 

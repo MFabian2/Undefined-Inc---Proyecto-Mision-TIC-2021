@@ -4,7 +4,8 @@ export const ComponenteEjemplo = () => {
   return (
     <>
       <h1>
-        Este es un ejemplo de componente
+        
+        Login Ejemplo
       </h1>
     </>
   )

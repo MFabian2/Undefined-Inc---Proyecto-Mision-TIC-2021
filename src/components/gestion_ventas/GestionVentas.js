@@ -29,7 +29,7 @@ export const GestionVentas = () => {
                                 <th scope="col">Estado</th>
                                 <th scope="col">Fecha</th>
                                 <th scope="col text-center"> Editar
-                                    <i class="fas fa-pencil-alt"></i>
+                                    <i className="fas fa-pencil-alt"></i>
                                 </th>
 
                             </tr>
@@ -43,7 +43,7 @@ export const GestionVentas = () => {
                                 <td>19/12/21</td>
                                 <td className="text-left">
                                     <button className="btn cobalt">
-                                        <i class="fas fa-pencil-alt white-icon"></i>
+                                        <i className="fas fa-pencil-alt white-icon"></i>
                                     </button>
                                 </td>
                             </tr>
@@ -59,7 +59,7 @@ export const GestionVentas = () => {
                     </div>
 
                     <div className="alert alert-light text-center" role="alert">
-                    <i class="fas fa-sync fa-2x fa-spin"></i>
+                    <i className="fas fa-sync fa-2x fa-spin"></i>
                     </div>
                 </div>
 
