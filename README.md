@@ -1,7 +1,7 @@
 Integrantes
 1-Marco Fabián Piñeros Hernández
 2-Mónica Alejandra Agredo Henao
-3-
+3-Cristian Girón
 4-
 5-
 
