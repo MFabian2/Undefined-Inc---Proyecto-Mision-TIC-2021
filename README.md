@@ -1,9 +1,9 @@
 Integrantes
-1-Marco Fabián Piñeros Hernández
-2-Mónica Alejandra Agredo Henao
-3-Cristian Giron
-4-
-5-
+1. Marco Fabián Piñeros Hernández
+2. Mónica Alejandra Agredo Henao
+3. Cristian Giron
+4. Brayan Gomez
+5. Diego Martinez
 
 # Getting Started with Create React App
 
