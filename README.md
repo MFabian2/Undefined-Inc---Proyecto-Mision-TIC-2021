@@ -3,6 +3,7 @@ Integrantes
 2. Mónica Alejandra Agredo Henao
 3. Cristian Giron
 4. Brayan Gomez
+5. Diego Martinez
 
 
 # Getting Started with Create React App
