@@ -5,7 +5,9 @@ Developed By Hitman
 */
 
 import React from 'react'
+
 import './gestionVentas.css'
+
 import { NavGestionVentas } from './NavGestionVentas'
 
 export const GestionVentas = () => {
