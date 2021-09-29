@@ -10,7 +10,6 @@
         div {
             box-sizing: border-box;
         }
-        /* Esta es una manera de hacerlo */
         
         .topper {
             display: block;
@@ -25,7 +24,6 @@
             display: grid;
             grid-template-columns: 0.35fr 0.65fr;
             height: 80vh;
-            /* Puedes limitar la anchura */
             max-width: 1500px;
         }
         
@@ -44,44 +42,42 @@
         }
         
         .container_item--content {
+            background: no-repeat;
+            background-size: 100%;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
             background-color: #D5D6D2;
         }
         
         @keyframes example {
             0% {
-                background-image: url("./img/i.jpg");
-                box-sizing: 65vh;
-                height: 100%;
+                background-image: url("./img/i2.webp");
             }
             25% {
-                background-image: url("./img/i1.png");
-                box-sizing: 65vh;
+                background-image: url("./img/i.jpg");
             }
             50% {
-                background-image: url("./img/i2.webp");
-                box-sizing: 65vh;
+                background-image: url("./img/i1.png");
             }
             75% {
-                background-image: url("../img/i.jpg");
-                box-sizing: 65vh;
+                background-image: url("./img/i.jpg");
             }
             100% {
-                background-image: url("../img/i1.png");
-                box-sizing: 65vh;
+                background-image: url("./img/i2.webp");
             }
         }
         
-        div {
+        .container_item--content {
             animation-name: example;
-            animation-duration: 30s;
+            animation-duration: 20s;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            animation-iteration-count: infinite;
         }
         
         .foot {
             background-color: #2F2E33;
-            height: 8vh;
+            height: 3vh;
         }
         
         .foot {
