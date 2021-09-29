@@ -1,0 +1,116 @@
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: Optima;
+            font-size: 1rem;
+            color: #2F2E33;
+        }
+        
+        div {
+            box-sizing: border-box;
+        }
+        /* Esta es una manera de hacerlo */
+        
+        .topper {
+            display: block;
+            background-color: #2F2E33;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFFFFF;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 0.35fr 0.65fr;
+            height: 80vh;
+            /* Puedes limitar la anchura */
+            max-width: 1500px;
+        }
+        
+        .container__item--sidebar {
+            background-color: #D5D6D4;
+        }
+        
+        .container_item--content {
+            background-color: #D5D6D2;
+        }
+        
+        .container__item--sidebar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container_item--content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #D5D6D2;
+        }
+        
+        @keyframes example {
+            0% {
+                background-image: url("./img/i.jpg");
+                box-sizing: 65vh;
+                height: 100%;
+            }
+            25% {
+                background-image: url("./img/i1.png");
+                box-sizing: 65vh;
+            }
+            50% {
+                background-image: url("./img/i2.webp");
+                box-sizing: 65vh;
+            }
+            75% {
+                background-image: url("../img/i.jpg");
+                box-sizing: 65vh;
+            }
+            100% {
+                background-image: url("../img/i1.png");
+                box-sizing: 65vh;
+            }
+        }
+        
+        div {
+            animation-name: example;
+            animation-duration: 30s;
+        }
+        
+        .foot {
+            background-color: #2F2E33;
+            height: 8vh;
+        }
+        
+        .foot {
+            display: flex;
+            justify-content: center;
+            font-family: Optima;
+            font-style: normal;
+            font-weight: bolder;
+            padding: 1%;
+            color: #FFFFFF;
+        }
+        
+        .tittle {
+            font-family: Optima;
+            padding: 10%, 10%;
+        }
+        
+        .button {
+            background-color: #3A5199;
+            color: #FFFFFF;
+            padding: 7%;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .input {
+            padding: 3%;
+            border-radius: 10%;
+            text-align: center;
+            content: normal;
+            border: solid;
+        }
