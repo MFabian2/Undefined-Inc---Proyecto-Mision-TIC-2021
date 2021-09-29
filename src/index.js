@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { ScreenRolesUsuario } from './screens/ScreenRolesUsuario';
 
 
 
-ReactDOM.render(
-  
-    <App />,
+ReactDOM.render( 
+    <ScreenRolesUsuario />,
   document.getElementById('root')
 );
 
