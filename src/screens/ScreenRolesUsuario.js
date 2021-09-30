@@ -1,42 +1,46 @@
 import React from 'react'
-import Select from 'react-select'
 import './ScreenRolesUsuario.css'
 
-export function ScreenRolesUsuario(){
+export function ScreenRolesUsuario() {
     const [rol, setRol] = React.useState("");
     const [usuario, setUsuario] = React.useState("");
 
 
-    return(
-        <div className="container pt-5">
-            <p>Seleccione un rol de usuario</p>
-            <select className="custom-select"
-            onChange={(e)=>{
-                const selectedRol = e.target.value;
-                setRol(selectedRol)
-            }}
-            placeholder="seleccione un rol">
-                <option value="Administrador">Admimistrador</option>
-                <option value="Vendedor">Vendedor</option>
+    return (
+        <div>
+            <center className="title-principal">ROLES Y ESTADO DE USUARIO</center>
+            <center>
+                <div className="container pt-5">
+                    <p className="titlep">SELECCIONE UN ROL DE USUARIO</p>
+                    <select className="custom-select"
+                        onChange={(e) => {
+                            const selectedRol = e.target.value;
+                            setRol(selectedRol)
+                        }}
+                        placeholder="seleccione un rol">
+                        <option value="Administrador">Admimistrador</option>
+                        <option value="Vendedor">Vendedor</option>
 
-            </select>
-           <p> Usted tiene el rol de:  {rol} </p>
+                    </select>
+                    <p className="rol"> Usted tiene el rol de:  <span className="span">{rol}</span>  </p>
 
-            <p>Estado de usuario</p>
-            <select className="custom-select"
-            onChange={(e)=>{
-                const selectedUser = e.target.value;
-                setUsuario(selectedUser)
-            }}
-            placeholder="seleccione un rol">
-                <option value="Pendiente">Pendiente</option>
-                <option value="Autorizado">Autorizado</option>
-                <option value="No-autorizado">No-autorizado</option>
+                    <p className="titlep">SELECCIONE EL ESTADO DE USUARIO</p>
+                    <select className="custom-select"
+                        onChange={(e) => {
+                            const selectedUser = e.target.value;
+                            setUsuario(selectedUser)
+                        }}
+                        placeholder="seleccione un rol">
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="Autorizado">Autorizado</option>
+                        <option value="No-autorizado">No-autorizado</option>
 
-            </select>
-          <p>  Estado de usuario:  {usuario} </p>
+                    </select>
+                    <p className="rol">  Estado de usuario: <span className="span"> {usuario} </span> </p>
 
-          <button className="button-primary" >Guardar</button>
+                    <button className="button-primary" >Guardar</button>
+                </div>
+            </center>
         </div>
     )
 }
