@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ComponenteEjemplo = () => {
+export const App = () => {
   return (
     <>
       <h1>
@@ -9,3 +9,5 @@ export const ComponenteEjemplo = () => {
     </>
   )
 }
+
+export default App;
