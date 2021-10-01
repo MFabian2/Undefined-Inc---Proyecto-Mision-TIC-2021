@@ -3,50 +3,56 @@
 
 <html>
     <head>
-        <title>Ejemplo del uso de formularios - aprenderaprogramar.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de usuarios</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos.css">
     </head>
 
     <body>
-        <div align="center">
-            <div>Registro de Vendedores</div>
-        </div>
-        <div align="center">
-            <button class="btn btn-default" type="button">Consultar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
-            <button class="btn btn-default" type="button">Ingresar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
-            <button class="btn btn-default" type="button">Editar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
-        </div>
         <div>
-           <form action="accion.html" method="get">
-                <div class="chackbox">
-                    Tipo de usuario
-                    <input type="checkbox" name="tipoUsuario" id="vendedor">
-                    <label for="vendedor">Vendedor</label>
-
-                    <input type="checkbox" name="tipoUsuario" id="administrador">
-                    <label for="administrador">Administrador</label>
+            <form>
+                <div align="center">
+                    <div>Registro de Usuarios</div>
+                </div>
+                <div align="center">
+                    <button class="btn btn-default" type="button">Consultar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
+                    <button class="btn btn-default" type="button">Ingresar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
+                    <button class="btn btn-default" type="button">Editar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
                 </div>
                 <div>
-                    Documento:&nbsp;<input name="nombre" type="text" /><br /> 
-                    Nombres:&nbsp;<input name="apellidos" type="text" /><br />
-                    Apellidos:&nbsp;<input name="direccion" type="text" /><br />                    
-                </div>
-                <div class="radio">
-                    Estado
-                    <input type="radio" name="estado" id="pendiente">
-                    <label for="pendiente">Pendiente</label>
+                <form action="accion.html" method="get">
+                        <div class="chackbox">
+                            Tipo de usuario
+                            <input type="checkbox" name="tipoUsuario" id="vendedor">
+                            <label for="vendedor">Vendedor</label>
 
-                    <input type="radio" name="estado" id="autorizado">
-                    <label for="autorizado">Autorizado</label>
+                            <input type="checkbox" name="tipoUsuario" id="administrador">
+                            <label for="administrador">Administrador</label>
+                        </div>
+                        <div>
+                            Documento:&nbsp;<input name="nombre" type="text" /><br /> 
+                            Nombres:&nbsp;<input name="apellidos" type="text" /><br />
+                            Apellidos:&nbsp;<input name="direccion" type="text" /><br />                    
+                        </div>
+                        <div class="radio">
+                            Estado
+                            <input type="radio" name="estado" id="pendiente">
+                            <label for="pendiente">Pendiente</label>
 
-                    <input type="radio" name="estado" id="noAutorizado">
-                    <label for="noAutorizado">No autorizado</label>
+                            <input type="radio" name="estado" id="autorizado">
+                            <label for="autorizado">Autorizado</label>
+
+                            <input type="radio" name="estado" id="noAutorizado">
+                            <label for="noAutorizado">No autorizado</label>
+                        </div>
+                    </form>
+                    </div>
+                    </div>
+                    <br /> <br /> <br />
+                    <div>Undefined Inc. 2021</div>
                 </div>
             </form>
-            </div>
-            </div>
-             <br /> <br /> <br />
-            <div>Undefined Inc. 2021</div>
         </div>
-       
     </body>
 </html>

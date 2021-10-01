@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto";
+  }
+
+  .ventana{
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+  }
+
+  .formulario > div{
+      padding: 20px 0;
+      border-bottom: 1px solid #2F2E33;
+  }
+  
+  
+  .blue-black{
+    background-color: #2F2E33;
+  }
+  
+  .cool-gray{
+    background-color: #D5D6D2;
+  }
+  
+  .white{
+  background-color: #ffff;
+  }
+  
+  .cobalt{
+    background-color: #3A5199 !important;
+  }
+  
+  .white-icon{
+    color:#ffff
+  }
