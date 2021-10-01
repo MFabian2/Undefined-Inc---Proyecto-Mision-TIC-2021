@@ -10,15 +10,15 @@
     </head>
 
     <body>
-        <div>
-            <form>
+        <div class="ventana">
+            <form class="formulario">
                 <div align="center">
                     <div>Registro de Usuarios</div>
                 </div>
-                <div align="center">
-                    <button class="btn btn-default" type="button">Consultar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
-                    <button class="btn btn-default" type="button">Ingresar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
-                    <button class="btn btn-default" type="button">Editar&nbsp;<span class="glyphicon glyphicon-step-forward"></span></button>
+                <div align="center" class="formulario">
+                    <button type="button" >Consultar&nbsp;<span></span></button>
+                    <button type="button" >Ingresar&nbsp;<span></span></button>
+                    <button type="button">Editar&nbsp;<span></span></button>
                 </div>
                 <div>
                 <form action="accion.html" method="get">
@@ -45,6 +45,9 @@
 
                             <input type="radio" name="estado" id="noAutorizado">
                             <label for="noAutorizado">No autorizado</label>
+                        </div>
+                        <div align="center" class="formulario">
+                            <button type="button" id="btnGuardar">Guardar&nbsp;<span></span></button>
                         </div>
                     </form>
                     </div>
