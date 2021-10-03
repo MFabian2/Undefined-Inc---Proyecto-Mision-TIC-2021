@@ -3,19 +3,11 @@
 Developed By Hitman
 =====================
 */
-
 import React from 'react'
-import { EjemploProps } from './ej'
-
 import './gestionVentas.css'
-
 import { NavGestionVentas } from './NavGestionVentas'
-
-
-
 export const GestionVentas = () => {
     return (
-
         <div>
 
             <NavGestionVentas />
@@ -23,7 +15,6 @@ export const GestionVentas = () => {
             <br />
 
             <section className="container mt-4 bg-light">
-
                 <div className="table-responsive">
                     <table className="table">
                         <thead className="cool-gray">
@@ -64,7 +55,7 @@ export const GestionVentas = () => {
                     </div>
 
                     <div className="alert alert-light text-center" role="alert">
-                    <i className="fas fa-sync fa-2x fa-spin"></i>
+                        <i className="fas fa-sync fa-2x fa-spin"></i>
                     </div>
                 </div>
 

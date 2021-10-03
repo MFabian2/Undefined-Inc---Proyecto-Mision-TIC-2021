@@ -12,7 +12,7 @@ export const NavGestionVentas = () => {
             <div className="row cool-gray">
 
                 <div className="col-3 pt-2">
-                    <h2 className="text-center align-self-center">Gestion de Ventas</h2>
+                    <h3 className="text-center align-self-center">Gestion de Ventas</h3>
                 </div>
 
                 <div className="col-3 cool-gray align-self-center">
