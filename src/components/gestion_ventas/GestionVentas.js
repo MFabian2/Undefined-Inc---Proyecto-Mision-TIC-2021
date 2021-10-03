@@ -5,10 +5,13 @@ Developed By Hitman
 */
 
 import React from 'react'
+import { EjemploProps } from './ej'
 
 import './gestionVentas.css'
 
 import { NavGestionVentas } from './NavGestionVentas'
+
+
 
 export const GestionVentas = () => {
     return (
@@ -40,7 +43,7 @@ export const GestionVentas = () => {
                             <tr>
                                 <th scope="row">12345</th>
                                 <td>IphoneX</td>
-                                <td>Juan Perez</td>
+                                <td>Usuario </td>
                                 <td>Enviado</td>
                                 <td>19/12/21</td>
                                 <td className="text-left">
