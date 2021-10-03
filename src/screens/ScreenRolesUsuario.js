@@ -10,7 +10,7 @@ export function ScreenRolesUsuario() {
         <div>
             <center className="title-principal">ROLES Y ESTADO DE USUARIO</center>
             <center>
-                <div className="container pt-5">
+                <div className="contenedor pt-5">
                     <p className="titlep">SELECCIONE UN ROL DE USUARIO</p>
                     <select className="custom-select"
                         onChange={(e) => {
