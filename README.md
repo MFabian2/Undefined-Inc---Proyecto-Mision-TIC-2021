@@ -1,5 +1,5 @@
 Integrantes
-1. Marco Fabián Piñeros Hernández algo
+1. Marco Fabián Piñeros Hernández
 2. Mónica Alejandra Agredo Henao
 3. Cristian Giron
 4. Brayan Gomez
