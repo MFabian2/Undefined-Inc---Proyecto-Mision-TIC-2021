@@ -14,7 +14,7 @@ export const GestionVentas = () => {
 
             <br />
 
-            <section className="container-fluid bg-light p-4" >
+            <section className="container bg-light p-4" >
                 <div className="table-responsive">
                     <table className="table">
                         <thead className="cool-gray">

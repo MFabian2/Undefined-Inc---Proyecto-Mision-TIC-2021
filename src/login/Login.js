@@ -16,7 +16,7 @@ export const Login = ({ history }) => {
                 </main>
             </header>
 
-            <main class="container">
+            <main class="container_1">
                 <aside class="container__item--sidebar ">
 
                     <form class="login">

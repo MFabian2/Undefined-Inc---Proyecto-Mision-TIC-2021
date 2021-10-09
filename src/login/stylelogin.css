@@ -20,7 +20,7 @@
             color: #FFFFFF;
         }
         
-        .container {
+        .container_1 {
             display: grid;
             grid-template-columns: 0.35fr 0.65fr;
             height: 80vh;

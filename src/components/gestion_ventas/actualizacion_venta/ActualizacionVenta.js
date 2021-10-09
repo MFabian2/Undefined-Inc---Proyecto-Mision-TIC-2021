@@ -8,7 +8,7 @@ import React from 'react'
 
 export const ActualizacionVenta = () => {
     return (
-        <div>
+        <div className="container mt-2">
             <h1>Actualizacion venta</h1>
 
 
