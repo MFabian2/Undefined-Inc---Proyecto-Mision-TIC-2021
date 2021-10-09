@@ -1,3 +1,8 @@
+/*
+=================================
+Developed by Diego Martinez
+=================================
+*/
 import React from 'react'
 import "./stylelogin.css"
 
@@ -16,7 +21,7 @@ export const Login = ({ history }) => {
                 </main>
             </header>
 
-            <main class="container">
+            <main class="container_1">
                 <aside class="container__item--sidebar ">
 
                     <form class="login">
@@ -37,12 +42,6 @@ export const Login = ({ history }) => {
                     </a>
                 </aside>
             </main>
-
-            {/* <main class="foot">
-                <footer>
-                    <a class="tittle "> Undefined Inc. 2021 </a>
-                </footer>
-            </main> */}
 
         </div>
     )
