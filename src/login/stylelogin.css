@@ -75,20 +75,7 @@
             animation-iteration-count: infinite;
         }
         
-        .foot {
-            background-color: #2F2E33;
-            height: 3vh;
-        }
-        
-        .foot {
-            display: flex;
-            justify-content: center;
-            font-family: Optima;
-            font-style: normal;
-            font-weight: bolder;
-            padding: 1%;
-            color: #FFFFFF;
-        }
+      
         
         .tittle {
             font-family: Optima;

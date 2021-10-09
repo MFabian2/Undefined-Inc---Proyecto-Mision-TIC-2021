@@ -9,7 +9,7 @@ import React from 'react'
 export const NavGestionVentas = () => {
     return (
 
-        <div className="row cool-gray navbar navbar-expand-lg navbar-light">
+        <div className="cool-gray navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
                 <div className="col pt-2 nav-item">
                     <h4 className="text-center align-self-center">Ventas</h4>
