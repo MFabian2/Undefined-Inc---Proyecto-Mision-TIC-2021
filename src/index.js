@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import InterfazInformacionVentas from './componentes/InterfazInformacionVentas';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { AppRouter } from './Routes/AppRouter';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <InterfazInformacionVentas />
-  </React.StrictMode>,
+  
+    <AppRouter/>,
+  
   document.getElementById('root')
 );
