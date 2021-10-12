@@ -1,5 +1,6 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
+import InterfazInformacionVentas from '../componentes/InterfazInformacionVentas'
 import { ActualizacionVenta } from '../components/gestion_ventas/actualizacion_venta/ActualizacionVenta'
 import { GestionVentas } from '../components/gestion_ventas/GestionVentas'
 import { Navbar } from '../components/Navbar/Navbar'
@@ -20,6 +21,7 @@ export const DashboardRouter = () => {
                     <Route exact path="/ventas" component={GestionVentas} />
                     <Route exact path='/roles' component={ScreenRolesUsuario} /> 
                     <Route exact path='/actualizacion-ventas' component={ActualizacionVenta} />  
+                    <Route exact path='/info-ventas' component={InterfazInformacionVentas} />  
                     <Redirect to="/roles"/>
                 </Switch>
 
