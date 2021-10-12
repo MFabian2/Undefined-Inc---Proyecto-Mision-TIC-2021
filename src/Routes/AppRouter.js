@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { DashboardRouter } from './DashboardRouter';
 import { Login } from '../login/Login';
+import { Footer } from '../components/Footer/Footer';
 
 export const AppRouter = () => {
     return (
@@ -13,6 +14,8 @@ export const AppRouter = () => {
                     <Route path='/' component={DashboardRouter} />
                 </Switch>
             </div>
+
+            < Footer />
 
         </Router>
     )

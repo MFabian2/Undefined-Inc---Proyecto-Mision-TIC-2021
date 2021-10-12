@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './footer.css';
 
 export const Footer = () => {
     return (
         <div>
-            <main class="foot">
+            <main className="foot">
                 <footer>
-                    <a className="tittle "> Undefined Inc. 2021 </a>
+                    <p className="tittle"> Undefined Inc. 2021 </p>
                 </footer>
             </main>
         </div>

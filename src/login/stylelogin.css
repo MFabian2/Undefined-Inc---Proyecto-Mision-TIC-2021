@@ -20,7 +20,7 @@
             color: #FFFFFF;
         }
         
-        .container {
+        .container_1 {
             display: grid;
             grid-template-columns: 0.35fr 0.65fr;
             height: 80vh;
@@ -52,10 +52,10 @@
         
         @keyframes example {
             0% {
-                background-image: url("./img/i2.webp");
+                background-image: url("./img/i.jpg");
             }
             25% {
-                background-image: url("./img/i.jpg");
+                background-image: url("./img/i2.webp");
             }
             50% {
                 background-image: url("./img/i1.png");
@@ -64,7 +64,7 @@
                 background-image: url("./img/i.jpg");
             }
             100% {
-                background-image: url("./img/i2.webp");
+                background-image: url("./img/i1.png");
             }
         }
         
@@ -73,21 +73,6 @@
             animation-duration: 20s;
             animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
             animation-iteration-count: infinite;
-        }
-        
-        .foot {
-            background-color: #2F2E33;
-            height: 3vh;
-        }
-        
-        .foot {
-            display: flex;
-            justify-content: center;
-            font-family: Optima;
-            font-style: normal;
-            font-weight: bolder;
-            padding: 1%;
-            color: #FFFFFF;
         }
         
         .tittle {
